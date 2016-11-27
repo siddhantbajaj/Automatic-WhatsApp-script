@@ -19,7 +19,7 @@ step 3:open rails console and type following commands:
 
 >script = "return arguments[0].innerHTML = 'YOUR MESSAGE'"
 
->10.times do    // Number of times you want to send message 
+>10.times do    // Number of times you want to send message.Don't do it for a large number as WhatsApp may block you.
 
 >browser.execute_script(script, element)
 
@@ -28,4 +28,12 @@ step 3:open rails console and type following commands:
 >browser.send_keys :enter
 
 >end 
+
+WARNING:Please use this script only for educational purposes, i am not responsible if your friends ( or even Whatsapp ) block you.
+
+From whatsapp FAQ:
+
+Be aware that the following actions are in violation of our Terms of Service:
+
+>Using an automated system or an unauthorized / unofficial client application to send messages through WhatsApp.
 
