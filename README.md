@@ -1,5 +1,5 @@
 # Automatic-WhatsApp-script
-Ruby script to send automatic messages to your friends or groups
+Ruby script to automatically send messages to your friends or groups
 
 step 1:Create a rails project.
 
